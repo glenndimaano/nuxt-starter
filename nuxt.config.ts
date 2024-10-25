@@ -10,14 +10,4 @@ export default defineNuxtConfig({
       prefix: "",
     }
   ],
-  tailwindcss: {
-    // Defaults options
-    cssPath: ['~/assets/css/tailwind.css', { injectPosition: "first" }],
-    configPath: 'tailwind.config',
-    exposeConfig: {
-      level: 2
-    },
-    config: {},
-    viewer: true,
-  },
 })
